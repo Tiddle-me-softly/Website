@@ -1,0 +1,80 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+
+}
+
+/* header styles will be placed below here */
+
+.header{
+    background-color: #1F2937;
+   display: flex;
+   border: 2px solid red;
+   height: 600px;
+
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+
+}
+
+.hero-text, .nav-content-top .links{
+    font-size: 18px;
+    color: #E5E7EB;
+
+
+}
+
+.nav-content-top{
+    justify-content: flex-start;
+    border: 2px solid red;
+    margin: 20px;
+    padding: 10px;
+}
+
+.links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.links a{
+    text-decoration: none;
+    
+
+}
+
+.header-logo{
+    font-size:  24px;
+    color: #F9FAF8;
+   
+}
+
+.placeholder-image{
+    color: #E5E7EB;
+    font-size: 12px;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a{
+    color: #E5E7EB;
+}
+
+.hero{
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 80px;
+    height: 200px;
+    width: 600px;
+   
+}
